@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.courier-prime-regular {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.courier-prime-bold {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.courier-prime-regular-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.courier-prime-bold-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+
+.seccionTitulo{
+   height: 670px;
+   justify-content: center;
+   .spanh1{
+        font-weight: bold;
+    }
+   .tituloh1{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 3.5rem;
+   }
+   .tituloh2{
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 2rem;
+    }
+    
+    .divTitulo{
+        margin-top: 200px;
+        .parrafoTitulo{
+            color: white;
+            text-align: center;
+        }
+         .boton1{
+            margin-left: 680px;
+            color: white;
+            border-color: white;
+            border-radius: 50px;
+            &:hover{
+                background-color: rgba(189, 186, 186, 0.635);
+            }
+        }
+    }
+   
+}
