@@ -32,7 +32,7 @@
 
 
 .seccionTitulo{
-   height: 670px;
+   height: 800px;
    justify-content: center;
    .spanh1{
         font-weight: bold;
@@ -44,27 +44,36 @@
     font-size: 3.5rem;
    }
    .tituloh2{
-        color: white;
-        text-align: center;
-        padding-top: 20px;
-        font-size: 2rem;
+      color: white;
+      text-align: center;
+      padding-top: 20px;
+      font-size: 2rem;
     }
     
     .divTitulo{
-        margin-top: 200px;
-        .parrafoTitulo{
-            color: white;
-            text-align: center;
-        }
-         .boton1{
-            margin-left: 680px;
-            color: white;
-            border-color: white;
-            border-radius: 50px;
-            &:hover{
-                background-color: rgba(189, 186, 186, 0.635);
-            }
+      margin-top: 200px;
+      .parrafoTitulo{
+        color: white;
+        text-align: center;
+      }
+      .boton1{
+        width: 200px;
+        text-align: center;
+        color: white;
+        border-color: white;
+        border-radius: 50px;
+          &:hover{
+            background-color: rgba(189, 186, 186, 0.635);
+          }
         }
     }
    
+}
+
+.parrafoFooter {
+  background-color: beige;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
 }
